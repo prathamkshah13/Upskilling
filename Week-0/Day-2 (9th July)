@@ -1,0 +1,45 @@
+Learnings:
+Basic: 
+1. Tags
+2. Attributes
+3. Inline styles
+4. JS basics,data types,loops etc
+
+Slightly over Basics:
+1. External Styles, classes in css and ids 
+2. Flexbox
+3. Connecting JS to HTML (Selectors, DOM)
+4. Chrome Dev tools
+
+A. What are browsers? 
+The goal of a browser is it needs to allow people to hit a specific server and get back some html, css and JS and render it on the screen. Servers are specified with the URL. 
+
+B. Why HTML, CSS, JS?
+As eveything on a website/internet can be encapsulated by these three languages, thereby a browser needs to know to render these correctly. 
+
+C. HTML?
+Defines the structure of the Website. What is placed where and what all is placed. 
+
+
+D. div tags: Stand for one full length or length of the page. That means it will take up the entire line in easy words. 
+
+E. WHOLE WEBSITE IS technically inside the html (METADATA), head tag body tag(Actual content of the website). 
+
+F. span tag: Only takes as much space as it needs. 
+
+G. Attributes vs Tags
+Attributes define the structure and each tag can have multiple attributes that help define what that tag can do. 
+
+H. Input Placeholder:
+<!--<input placeholder ="Username" Type="Text"></input> --> 
+
+Week-0 (Part-2)-CSS
+1. Color
+2.Background color
+3.Border radius
+4. Border: 2px solid black example in h2. (Needs three things: Width,Kind,color)
+5. Padding: Space inside a div 
+6. Margin: Space outside
+7. Box-shadow: 
+8. Positioning:     1. Use float. That is <span style="float:right;"> Sign Out </span>
+                    2. We use a flex box. 
