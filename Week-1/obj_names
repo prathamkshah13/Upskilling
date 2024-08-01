@@ -1,0 +1,26 @@
+const personArray = ["Harkirat", "Pratham", "Raman"];
+//Write a program that prints all the males people's first name given a complex obj; 
+const genderArray = ["Male", "Male", "Female"]; 
+// for(let i=0; i<personArray.length;i++){
+//     if (genderArray[i] == "Male"){
+//      console.log(personArray[i]);
+// }
+// }
+
+//Above was one way of doing it , now we are going to do it by Objects. 
+
+
+const allUsers = [{
+    firstName: "Harkirat",
+    gender: "male"
+
+},
+{
+    firstName: "Pratham",
+    gender: "male"
+}]
+for (let i=0; i< allUsers.length; i++){
+    if (allUsers[i]["gender"] == "male"){
+        console.log(allUsers[i]["firstName"]);
+}
+}
