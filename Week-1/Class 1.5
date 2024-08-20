@@ -1,0 +1,24 @@
+We are going to learn the following:   
+a. Async functions vs Sync functions
+b. JS Browser architecture 
+c. Promises 
+5. Async Await 
+
+1. Async functions that JS provides you with:  a. setTimeout(fn, 1000);   //1000 represents milliseconds. 
+                                               b. fs.readFile: To read a file from the file System 
+                                               c. Fetch: To fetch some data from an API end point. 
+
+
+2. Async by Ourselves: 
+
+
+NOW UNTIL NOW WE HAVE LEARNT ONLY THE USE OF OTHER PEOPLE'S ASYNC FUNCTION (setTimeout(), readFile etc). NOW WE WILL LEARN HOW CAN WE CREATE AN ASYNCHRONOUS FUNCTION
+OF OUR OWN. [This can be done without using a promise. Just a wrapper on top of an async function works fine]. 
+
+3. Promises: 
+Promises Syntactical sugar(Pretty way to write, under hood it still uses callback queue, still uses event loop) that make async function code slightly more readable. 
+
+Note: 
+1. Promises have no callback. 
+2. await: if a function is returning a promise and if we put an .await in front of it then we directly log it/ do some tasks with it. 
+3. await is only valid inside an async function.  
